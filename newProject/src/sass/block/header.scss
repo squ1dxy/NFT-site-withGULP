@@ -1,0 +1,120 @@
+// HEADER LEFT
+
+.pos{
+    position: relative;
+    z-index: 2;
+}
+
+.header_left{
+    background: #0D0D0E;
+}
+
+.header_left-title{
+    font-family: var(--fontPO);
+    font-size: 82px;
+    font-weight: 400;
+    line-height: 100px;
+    letter-spacing: 1px;
+    text-align: left;  
+    color: #FFFFFF;
+    max-width: 658px; 
+    max-height: 300px;   
+}
+
+.header_left-text{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #FFFFFF;
+    max-width: 641px;
+    min-height: 96px;
+    margin: 40px 0px 81px;
+}
+
+.header_left-vid{
+    background: #262627;
+    height: 120px;  
+    padding-left: 100px;
+    padding-top: 42px;
+    padding-bottom: 26px;
+    max-width: 620px;
+}
+.header_left-videotext{
+    font-family: var(--fontPO);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 211px;
+    height: 44px;
+    text-align: center;
+    margin-left: 80px;   
+    transition: 300ms;     
+}
+
+.header_left-videotext-icon{
+    padding: 15px;
+    margin-left: 13px;
+    background-color: #FFFFFF;
+}
+
+/////////////////////////////////////////////////////
+//HEADER RIGHT
+.header_right-imgback{
+    position: absolute;
+    z-index: 1;
+    display: block;
+    right: 0; 
+    top: 0;
+    height: 688px;
+    width: 792px;   
+}
+
+//////////////////////////////////////////////////////// 
+// HEADER BOTTOM
+.header_bottom{
+    background: #262627;
+}
+.hb_title{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: white;
+    max-width: 448px;
+    margin: 163px 259px 167px 120px;
+}
+
+.info_title{
+font-family: var(--fontPO);
+font-size: 56px;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: 1px;
+text-align: center;
+}
+.info_title-little{
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 1px;
+text-align: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 196px 0 238px;
+}
+.info:nth-child(2){
+    margin: 196px 95px 238px 76px;
+}
+
+.info:nth-child(3){
+    margin: 196px 155px 238px 0 ;
+}

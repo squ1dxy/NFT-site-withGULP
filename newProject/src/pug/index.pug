@@ -1,0 +1,10 @@
+extends layout/app
+
+block page 
+    include chunk/header
+    //ul.news
+      each item in news 
+         li= item.name 
+    include chunk/main
+    
+    include chunk/footer

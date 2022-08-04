@@ -1,0 +1,44 @@
+.nav_left-title{
+    align-items: center;
+}
+
+.nav_left-link{
+    height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px; 
+    color: #FFFFFF;
+    margin: 0px 15px 5px;
+    transition: 300ms;
+}
+
+a:hover{
+    color: #D400B3;
+}
+
+.nav_left-logo{
+    margin-top: 10px;
+} 
+
+.navr_button{
+    width: 215px;
+    height: 40px;
+    font-family: var(--fontPO);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+    border: 2px solid #D400B3;
+    background-color: #D400B3;
+    margin: 18px 0px 15px;
+    transition: background 300ms, color 300ms;
+}
+
+button:hover{
+    background-color: #262627;
+    color:#D400B3 ;
+}

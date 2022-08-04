@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'PO';  
+    src: url('../fonts/PaytoneOne.ttf') format("truetype"); 
+     }
+@font-face {
+    font-family: 'SSP';
+    src: url('../fonts/SourceSansPro-Regular.otf');
+}
+
+$base-font-size:22px;
+
+@mixin ph{
+    @media (max-width:700px){
+        @content
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontSSP);
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    font-size: $base-font-size;
+    line-height: 1.5;
+    @include ph {
+            color: #fff;
+            background-color: #000;       
+    }
+}
+
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+@import "./block/*.scss";

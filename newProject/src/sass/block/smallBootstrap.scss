@@ -1,0 +1,35 @@
+:root{
+    --fontPO: 'PO';
+    --fontSSP: 'SSP';
+    --grey: #c6c5c5;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.jc-c{
+    justify-content: center;
+}
+
+.ai-c{
+    align-items: center;
+}
+
+.jc-end{
+    justify-content: end;
+}
+.jc-btw{
+    justify-content: space-between;
+}
+.p-relative{
+    position: relative;
+}
+
+.background-darkgrey{
+    background: #0D0D0E
+}
+
+.background-grey{
+    background: #262627;
+}

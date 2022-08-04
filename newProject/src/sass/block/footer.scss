@@ -1,0 +1,27 @@
+.footer_margin{
+    margin: 0 120px;
+}
+
+.footer_links{
+    display: flex;
+}
+
+.footer_img{
+    border: 1px solid var(--grey);
+    padding: 16px;
+    background-color: rgb(115, 115, 115);
+    transition: background 300ms;
+}
+
+.footer_img:hover{
+    background-color: #D400B3;
+}
+
+.footer_box{
+    margin-top: 10px;
+}
+
+.footer_box:nth-child(2){
+    margin-right:15px;
+    margin-left:15px;
+}
